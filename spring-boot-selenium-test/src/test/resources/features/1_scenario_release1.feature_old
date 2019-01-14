@@ -1,0 +1,8 @@
+Feature: Regression Test - Feature 1
+
+Scenario Outline: Navigate to home
+	Given We go to application home page
+	And We Logout from application
+	
+	Examples:
+	| button_id_tab_main_compositions |
